@@ -1,23 +1,66 @@
+@font-face {
+    font-family: Coaster rible;
+    src: url(../fonts/Coaster\ Rible.otf);
+}
+
+* {
+        box-sizing: border-box;
+}
+
 h1 {
     color: blanchedalmond;
-    background-color: black;
     font-size: 72px;
-    border: 3px double red ;
+    text-align: center;
+    font-family: Coaster rible;
 }
 
 
 h2 {
-
+    color: aliceblue;
+    background-color: black;
 }
 
 
 p {
-
+    width: auto ;
+    height: auto ;
 }
 
 
 a {
-    
+    background-color: rgb(225, 222, 241);
+    color: rgb(99, 68, 30);
+    text-decoration: none; /* Remover a linha abaixo do link */
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid white;
 }
 
 
+a:hover {
+    color: bisque;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#out-gal {
+    text-align: center;
+}
+
+.span {
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+#img-header {
+    border: 2px solid black;
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/Andromeda_Galaxy_\(with_h-alpha\).jpg);
+}
